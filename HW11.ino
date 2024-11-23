@@ -73,12 +73,12 @@ void loop() {
     }
     
        // for pinState2 (LED on pin 2)
-    if (now > startTime11 + 19330 && now > lastChange3 + 500) {
+    if (now > startTime11 + 19334 && now > lastChange3 + 500) {
         pinState3 = !pinState3;
         lastChange3 = now;
     }
     
-    if (now > startTime11 + 29500 && now > lastChange2 + 500) {
+    if (now > startTime11 + 29050 && now > lastChange2 + 500) {
         pinState2 = !pinState2;
         lastChange2 = now;
     }
