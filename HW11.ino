@@ -83,7 +83,7 @@ void loop() {
         lastChange2 = now;
     }
 
-    if (now > startTime11 + 39500 && now > lastChange4 + 500) {
+    if (now > startTime11 + 38800 && now > lastChange4 + 500) {
       pinState4 = !pinState4;
       lastChange4 = now;
     }
