@@ -2,7 +2,7 @@
 
 ### Description on How the Lights are Coded
 - Lined up 6 LEDs.
-- Each blink an LED does represents one second.
+- Each blink an LED makes represents one second.
 - Every 10th second, another LED lights up.
 - By the 50th second, all 6 LED lights are blinking.
 - At the 60th second, the LEDs reset, restarting with a single LED blinking.
