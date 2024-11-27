@@ -8,5 +8,5 @@
 - At the 60th second, the LEDs reset, restarting with a single LED blinking.
 - The cycle repeats.
 
-### Schemetic
+### Schematic
 - Please click [here](https://drive.google.com/file/d/12_T2bLEXK_Tv30dTnXuQ68zOFYA6Y-5s/view?usp=sharing)
