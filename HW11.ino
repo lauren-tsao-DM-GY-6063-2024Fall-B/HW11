@@ -63,7 +63,7 @@ void loop() {
     unsigned long now = millis();  // unsigned long named 'now' is storing millis()
 
     // resetting the sequence after 60s
-    if (now - startTime12 > 59500) { // if current millis() - startTime12 is greater than 60s..
+    if (now - startTime12 > 59500) { // if current millis() - startTime12 is greater than 59500ms..
         startTime12 = now - 500;  // .. reset start time of LED, restarting the entire cycle (-500ms to remove lag time)
         
         // reset states of all LEDs to off
